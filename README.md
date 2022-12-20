@@ -1,5 +1,3 @@
-# php_crud_ajax_mysqli
-Build a CRUD system using PHP, AJAX &amp; MySQL Database
 
 This is a simple tutorial on building a CRUD System using PHP, Javascript and MySQL Database.
 
