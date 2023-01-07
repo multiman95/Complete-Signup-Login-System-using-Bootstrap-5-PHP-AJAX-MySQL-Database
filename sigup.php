@@ -24,7 +24,7 @@
 								<input type="text" id="firstname" class="form-control" placeholder="Firstname">
 							</div>
 							<div class="col-6">
-								<input type="text" id="firstname" class="form-control" placeholder="Lastname">
+								<input type="text" id="lastname" class="form-control" placeholder="Lastname">
 							</div>
 						</div>
 
@@ -33,16 +33,16 @@
 								<input type="text" id="userEmail" class="form-control" placeholder="Email">
 							</div>
 							<div class="col-6">
-								<input type="text" id="phone_number" class="form-control" placeholder="Phone Number">
+								<input type="text" id="phone_number" class="form-control" placeholder="Phone Number" maxlength="10">
 							</div>
 						</div>
 
 						<div class="row mt-4">
 							<div class="col-6">
-								<input type="text" id="userPass" class="form-control" placeholder="Password">
+								<input type="password" id="userPass" class="form-control" placeholder="Password">
 							</div>
 							<div class="col-6">
-								<input type="text" id="confirm_pass" class="form-control" placeholder="Confirm Password">
+								<input type="password" id="confirm_pass" class="form-control" placeholder="Confirm Password">
 							</div>
 						</div>
 
@@ -72,6 +72,9 @@
 
 	</div>
 
+	<script src="js/jquery-3.6.3.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+
+	<script src="functions_js/sigup.js"></script>
 </body>
 </html>
