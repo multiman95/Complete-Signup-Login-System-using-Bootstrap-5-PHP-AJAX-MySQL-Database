@@ -87,8 +87,10 @@ $(document).ready(function(){
 			beforeSend: function(){
 
 			},
-			success:function(data){
-
+			success: function(data){
+				
+				$('form').trigger('reset');
+				$('#msg').html(data);
 			}
 		});
 		  
