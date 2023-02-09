@@ -38,7 +38,7 @@
 
 						<center>
 							<p class="mt-4">New User?
-								<a href="sigup.php" class="text-white">
+								<a href="signup.php" class="text-white">
 									Signup
 								</a>
 							</p>
