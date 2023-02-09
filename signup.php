@@ -1,3 +1,6 @@
+<?php
+	include('database.php');
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -52,14 +55,15 @@
 							</button>
 						</div>
 
+						<!-- ajax msg -->
+						<center><h3 id="msg" class="mt-3"></h3></center>
+
 						<center>
 							<p class="mt-4">Already a User?
 								<a href="index.php" class="text-white">
 									Login
 								</a>
 							</p>
-
-							
 						</center>
 
 					</form>
